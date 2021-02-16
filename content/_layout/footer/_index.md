@@ -279,7 +279,7 @@ title: Footer
 </style>
   <div class="footer-gray">
     <div class="footer-custom">
-      <div class="footer-lists">
+      <!-- <div class="footer-lists">
         <div class="footer-list-wrap">
           <h6 class="ftr-hdr">Order Something</h6>
           <ul class="ftr-links-sub">
@@ -325,8 +325,8 @@ title: Footer
             </art:content>
           </ul>
         </div>
-      </div>
-      <div class="footer-email">
+      </div> -->
+      <!-- <div class="footer-email">
         <h6 class="ftr-hdr">Sign up for exclusive offers and inspiration</h6>
         <div id="ftr-email" class="ftr-email-form">
           <form id="ftrEmailForm" method="post" action="#">
@@ -335,42 +335,20 @@ title: Footer
           </form>
         </div>
         <div class="ftr-email-privacy-policy"></div>
-      </div>
-      <div class="footer-social">
+      </div> -->
+      <!-- <div class="footer-social">
         <h6 class="ftr-hdr">Follow Us</h6>
         <ul>
-          <li>
-            <a href="#" title="Facebook">
-              <img width="24" height="24" alt="Like us on Facebook" src="/images/fb.png">
-            </a>
-          </li>
-          <li>
-            <a href="#" title="Google+">
-              <img width="24" height="24" alt="Follow us on Google+" src="/images/gplus.png">
-            </a>
-          </li>
           <li>
             <a href="#" target="_blank">
               <img width="24" height="24" alt="Follow us on Pinterest" src="/images/pin-badge.png">
             </a>
           </li>
-          <li>
-            <a target="_blank" href="#">
-              <img width="24" height="24" alt="Follow us on Instagram" src="/images/instagram-badge.png">
-            </a>
-          </li>
-          <li>
-            <a href="#" title="Twitter">
-              <img width="67" alt="Follow us on Twitter" src="/images/twitter.png">
-            </a>
-          </li>
         </ul>
-      </div>
+      </div> -->
       <div class="footer-legal">
-        <p>&copy; Docport MIT Licence. | <a href="#" rel="nofollow">Privacy Policy</a> | <a href="#" rel="nofollow">Terms of Use</a> | <a href="#" rel="nofollow">Terms of Sale</a></p>
-        <p>Docport is free Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
-        <p>Various aspects of this website are ...blablabla</p>
+        <p>E-mail : jinwoo5480@snu.ac.kr | wjd5480@gmail.com</p>
+        <p>Copyrihgt © williamjeong2.site All Rights Reserved.</p>
       </div>
     </div>
   </div>

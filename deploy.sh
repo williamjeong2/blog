@@ -28,7 +28,7 @@ cd ..
 # blog 저장소 Commit & Push
 # 충돌 방지 위해 pull
 git pull origin master
-gir add .
+git add .
 
 msg="rebuilding site `date`"
 if [ $# -eq 1 ]

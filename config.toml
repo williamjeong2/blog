@@ -2,7 +2,7 @@ baseURL = "https://williamjeong2.github.io"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "DocPort Documentation"
+title = "Jeong's Blog"
 theme = "hugo-theme-docport"
 themesdir = "../blog/themes"
 pygmentsCodeFences = true
@@ -75,21 +75,26 @@ tabWidth = 2
 [[menu.shortcuts]]
 name = "Github"
 identifier = "ds"
-url = "https://github.com/vjeantet/hugo-theme-docport"
-weight = 10
+url = ""
 
-[[menu.shortcuts]]
-name = "Download"
-url = "https://github.com/vjeantet/hugo-theme-docport/archive/master.zip"
-weight = 11
-
-[[menu.shortcuts]]
-name = "Hugo Documentation"
-identifier = "hugodoc"
-url = "https://gohugo.io/"
-weight = 20
-
-[[menu.shortcuts]]
-name = "Credits"
-url = "/docport-theme/credits/"
-weight = 30
+#[[menu.shortcuts]]
+#name = "Github"
+#identifier = "ds"
+#url = "https://github.com/vjeantet/hugo-theme-docport"
+#weight = 10
+#
+#[[menu.shortcuts]]
+#name = "Download"
+#url = "https://github.com/vjeantet/hugo-theme-docport/archive/master.zip"
+#weight = 11
+#
+#[[menu.shortcuts]]
+#name = "Hugo Documentation"
+#identifier = "hugodoc"
+#url = "https://gohugo.io/"
+#weight = 20
+#
+#[[menu.shortcuts]]
+#name = "Credits"
+#url = "/docport-theme/credits/"
+#weight = 30
