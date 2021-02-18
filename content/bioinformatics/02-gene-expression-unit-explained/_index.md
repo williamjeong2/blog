@@ -1,7 +1,7 @@
 ---
 title: "RPKM, FPKM, TPM이 무엇인가?"
 date: 2021-02-16T17:54:31+09:00
-draft: true
+draft: false
 weight: 2
 ---
 

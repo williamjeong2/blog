@@ -1,7 +1,7 @@
 ---
 title: "FastQ 란?"
 date: 2021-02-16T18:25:31+09:00
-draft: true
+draft: false
 weight: 4
 ---
 > FastQ 포맷에 대한 공식 문서는 [여기](http://maq.sourceforge.net/fastq.shtml)에서 볼 수 있습니다.

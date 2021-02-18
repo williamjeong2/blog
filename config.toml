@@ -1,6 +1,6 @@
 baseURL = "https://williamjeong2.github.io"
 
-languageCode = "ko-kr"
+languageCode = "ko-KR"
 DefaultContentLanguage = "en"
 title = "Jeong's Blog"
 theme = "hugo-theme-docport"

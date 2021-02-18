@@ -1,7 +1,7 @@
 ---
-title: "RPKM, FPKM, TPM이 무엇인가?"
+title: "어떤 reference genome을 사용해야 할까?"
 date: 2021-02-17T17:59:31+09:00
-draft: true
+draft: false
 weight: 3
 ---
 
