@@ -12,7 +12,7 @@ pygmentsStyle = "monokai"
 defaultContentLanguageInSubdir= false
 enableMissingTranslationPlaceholders = false
 
-# googleanalytics = "UA-123-45"
+googleanalytics = "UA-150213770-1"
 
 disableKinds = ["taxonomy", "taxonomyTerm", "category", "RSS"]
 

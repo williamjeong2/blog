@@ -7,7 +7,7 @@ hide:
 - toc
 post: "&nbsp;\U0001F44B"
 title: Getting started
-weight: 2
+weight: 4
 ---
 
 ## Requirements

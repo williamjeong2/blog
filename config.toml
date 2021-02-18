@@ -64,9 +64,9 @@ guessSyntax = true
 hl_Lines = ""
 lineNoStart = 1
 lineNos = false
-lineNumbersInTable = true
+lineNumbersInTable = false
 noClasses = true
-style = "monokai"
+style = "dracula"
 tabWidth = 2
 
 #
@@ -75,7 +75,7 @@ tabWidth = 2
 [[menu.shortcuts]]
 name = "Github"
 identifier = "ds"
-url = ""
+url = "https://github.com/williamjeong2"
 
 #[[menu.shortcuts]]
 #name = "Github"
