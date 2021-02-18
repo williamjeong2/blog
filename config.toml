@@ -1,6 +1,6 @@
 baseURL = "https://williamjeong2.github.io"
 
-languageCode = "en-us"
+languageCode = "ko-kr"
 DefaultContentLanguage = "en"
 title = "Jeong's Blog"
 theme = "hugo-theme-docport"
@@ -11,7 +11,7 @@ pygmentsStyle = "monokai"
 
 defaultContentLanguageInSubdir= false
 enableMissingTranslationPlaceholders = false
-
+googleanalytics = "UA-150213770-1"
 
 # [Languages]
 # [Languages.en]
