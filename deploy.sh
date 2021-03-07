@@ -6,7 +6,7 @@ hugo -t hugo-theme-docport
 # github.io 레포 push위해 파일 경로 이동
 cd public
 # 충돌 방지를 위하 한번 pull
-git pull origin master
+git pull origin main
 
 # git 내용을 추가
 git add .

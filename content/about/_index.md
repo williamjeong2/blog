@@ -16,7 +16,7 @@ weight: 1
 
 ---------
 
-### Interests
+### ⚡️ Interests
 
 1. **Bioinformatics**
 2. **Data Scientist**
@@ -24,7 +24,7 @@ weight: 1
 
 --------
 
-### Educations and Research Experiences
+### 🏫 Educations and Research Experiences
 
 Master Student of  [BiKE Lab]( http://bike.snu.ac.kr/ ) in Seoul National University
 
