@@ -1,21 +1,18 @@
 ---
-layout: post
 title: "보통 잘 모르는 파이썬 내장함수 3가지"
 subtitle: "map, filter, reduce에 대해 알아보자"
 draft : false
-type: "Tips"
-blog: true
-text: true
-author: "Jinwoo Jeong"
-post-header: false
-header-img: img/header-img.png
-order: 9
+order: 5
+
 ---
 
-파이썬의 기본을 한 번 끝낸 후, 조금 더 심화된 파이썬 문법을 필요로 한다면 배워볼 수 있는 문법들입니다. 중급 문법들은 파이썬을 조금 더 쉽게 작성할 수 있도록 도와주고 불필요한 반복을 없애주죠. 이번 시간에는 map, filter, reduce에 대해 배워볼건데 이 3가지 함수들은 list를 다루는 함수입니다. 물론 기본 문법에서 배운 것처럼 이 3가지 함수를 사용하지 않아도 코딩하는 것에는 문제가 없습니다. 하지만 저의 경우에는 아래의 3가지 함수를 통해 반복문을 덜 사용하게 되었고, 불필요한 함수를 따로 만들어줄 필요가 없어서 편했습니다.
+파이썬의 기본을 한 번 끝낸 후, 조금 더 심화된 파이썬 문법을 필요로 한다면 배워볼 수 있는 문법들입니다. 중급 문법들은 파이썬을 조금 더 쉽게 작성할 수 있도록 도와주고 불필요한 반복을 없애주죠. 
+
+이번 시간에는 `map`, `filter`, `reduce`에 대해 배워볼건데, 이 3가지 함수들은 `list`를 다루는 함수입니다. 물론 기본 문법에서 배운 것처럼 이 3가지 함수를 사용하지 않아도 코딩하는 것에는 문제가 없습니다. 하지만 저의 경우에는 아래의 3가지 함수를 통해 반복문을 덜 사용하게 되었고, 불필요한 함수를 따로 만들어줄 필요가 없어서 편했습니다.
 
 자 그러면 시작해볼까요?
 
+---
 ## map
 
 `map` 은 리스트의 각 요소들을 지정된 함수로 처리하는 기능을 합니다. 쉽게 말하면 A라는 함수가 있고 list B가 있다면 A함수를 B로 수행한 결과를 돌려주는 거라고 할 수 있습니다.
@@ -46,6 +43,7 @@ print(list(map(lambda x: x**2/2, a)))
 
 똑같이 4개의 정수를 각 element를 받아 제곱을 해주고 2로 나눠주는 코드입니다. `map` 함수 앞에서 `list` 함수를 통해 list 자료형으로 변환하는 이유는 `map` 함수의 반환이 list가 아니기 때문인데요. `Iterator` 로 반환하는 값을 list로 변환하는 것입니다.(Iterator에 대해서는 다음에 따로 글을 써보겠습니다.)
 
+---
 ## filter
 
 정의 : 무엇을 걸러내다.
@@ -54,12 +52,18 @@ print(list(map(lambda x: x**2/2, a)))
 
 ```python
 a = [-3, -2, -1, 0, 1, 2, 3]
+
 print(list(filter(lambda x: x>0, a)))
 ```
 
 -3에서 3까지의 정수중에서 0보다 큰 값을 돌려주는 코드입니다. ~~참 쉽죠?~~
 
-### 이 방법이 괜찮은데?
+<span style="
+font-size: 2em;
+font-weight: bold;">
+이 방법이 괜찮은데?
+</span>
+
 
 하지만 꼭 이 방법만을 써야하는건 아닙니다. 우리에게는 `list comprehension` 이 있습니다.
 
@@ -67,6 +71,7 @@ map 함수를 list comprehension으로 구현해 볼까요?
 
 ```python
 a = [1, 2, 3, 4]
+
 print([x**2/2 for x in a])
 ```
 
@@ -76,13 +81,15 @@ filter 함수도 마찬가지입니다.
 
 ```python
 a = [-3, -2, -1, 0, 1, 2, 3]
+
 print([x for x in a if x>0])
 ```
 
 
 
-이처럼 방금 배운 map과 filter가 마음에 들지 않으면 list comprehensiond을...쓸 수도 있습니다.
+이처럼 방금 배운 map과 filter가 마음에 들지 않으면 list comprehension을...쓸 수도 있습니다.
 
+---
 ## reduce
 
 `reduce` 는 원래는 내장함수였는데 python 3부터 내장함수에서 빠지고 functools에서 가져와야 합니다.
@@ -105,6 +112,7 @@ reduce에 대한 원리는 그림 한장으면 끝납니다.
 from functools import reduce
 
 a = [1, 2, 3, 4, 5]
+
 print(reduce(lambda x, y: x+y, a))
 ```
 
