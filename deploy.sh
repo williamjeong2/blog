@@ -27,7 +27,7 @@ cd ..
 
 # blog 저장소 Commit & Push
 # 충돌 방지 위해 pull
-git pull origin master
+git pull origin main
 git add .
 
 msg="rebuilding site `date`"
