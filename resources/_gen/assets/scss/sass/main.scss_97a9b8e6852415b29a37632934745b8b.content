@@ -98,7 +98,7 @@ body {
   body footer {
     background-color: #333333;
     color: #cccccc;
-    padding: 0rem; }
+    padding: 3rem; }
     body footer a {
       color: #cccccc; }
 
@@ -314,3 +314,6 @@ article section.page div.content {
       border: 0px;
       font-weight: inherit;
       background-color: inherit; }
+  article section.page div.content > div.highlight pre code {
+    margin-left: -1.5rem;
+    margin-right: -1.5rem; }
