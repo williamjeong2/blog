@@ -1,7 +1,7 @@
 ---
 title: "docker를 운영하다가 용량 부족 문제를 겪을 때."
 draft : false
-weight: 3
+weight: 4
 ---
 ![](img/header-img.png)
 ## 들어가면서

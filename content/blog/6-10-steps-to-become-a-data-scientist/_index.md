@@ -1,7 +1,7 @@
 ---
 title: "데이터 과학자(Data Scientist)가 되기 위한 10단계"
 date: 2021-02-18T14:55:31+09:00
-draft : false
+draft: false
 weight: 3
 ---
 

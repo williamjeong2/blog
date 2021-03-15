@@ -2,7 +2,7 @@
 title: "보통 잘 모르는 파이썬 내장함수 3가지"
 subtitle: "map, filter, reduce에 대해 알아보자"
 draft : false
-order: 5
+weight: 6
 
 ---
 

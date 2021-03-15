@@ -2,7 +2,7 @@
 title: "우분투에 NAS 마운트"
 subtitle: "NAS에 백업된 다수의 대용량 파일에 쉽게 접근하기"
 draft : false
-order: 4
+weight: 5
 ---
 
 ## 들어가면서

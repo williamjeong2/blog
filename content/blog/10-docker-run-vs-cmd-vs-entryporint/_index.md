@@ -1,8 +1,8 @@
 ---
-title: "\U0001f433Dockerfile 명령어 RUN, CMD, ENTRYPOINT 차이"
+title: "\U0001f433 Dockerfile 명령어 RUN, CMD, ENTRYPOINT 차이"
 subtitle: "RUN, CMD, ENTRYPOINT 차이에 대해 알아보자"
 draft : false
-order: 6
+weight: 7
 
 ---
 
