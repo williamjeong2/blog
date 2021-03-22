@@ -1,13 +1,14 @@
 ---
-title: "Signatures of mutational processes in human cancer"
+title: "[논문요약]Signatures of mutational processes in human cancer"
 date: 2021-03-22T16:09:31+09:00
 draft: false
 weight: 1
 ---
 
-# [논문요약]Signatures of mutational processes in human cancer
 
-![paper](img/paper.png)
+![paper](paper.png?classes=border,shadow)
+
+---
 
 ### 1. Mutational catalogues
 
@@ -36,7 +37,7 @@ numan cancer의 기초가 되는 somatic mutations의 과정의 다양성과 복
 
 
 
-![figure](img/kataegis.png)
+![kataegis_plot](kataegis.png?height=600px)
 
 
 
